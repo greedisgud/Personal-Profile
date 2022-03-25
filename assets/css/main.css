@@ -3313,7 +3313,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #5270ff0f;
+  background-color: #171717;
 }
 
 .wrapper.style1-alt {
@@ -3321,7 +3321,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  background-color: #bdc8fe1b;
+  background-color: #292929;
 }
 
 .wrapper.style2-alt {
@@ -3329,7 +3329,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #5d5d5e1b;
+  background-color: #212121;
 }
 
 .wrapper.style3-alt {
@@ -4134,8 +4134,17 @@ body.is-preload #sidebar nav ul li {
 .projectImage:hover {
   height: 300px;
   width: 450px;
+  transition: ease 1s;
 }
 
 .gitBtn {
   margin-right: 20px;
+}
+
+.contactInfo {
+  margin-left: 66px;
+}
+
+.contactImage {
+  width: 400px;
 }
