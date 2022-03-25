@@ -2092,7 +2092,7 @@ button:hover:active:after,
 }
 
 .features section {
-  padding: 3.5em 3em 1em 7em;
+  padding: 30px;
   width: 50%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
@@ -3313,7 +3313,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #52b4ff;
+  background-color: #5270ff0f;
 }
 
 .wrapper.style1-alt {
@@ -3321,7 +3321,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  background-color: #5052b5;
+  background-color: #bdc8fe1b;
 }
 
 .wrapper.style2-alt {
@@ -3329,7 +3329,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #5d5d5e1b;
 }
 
 .wrapper.style3-alt {
@@ -4092,12 +4092,12 @@ body.is-preload #sidebar nav ul li {
 }
 
 .aboutTitle,
-.skillsTitle {
+.skillsTitle,
+.projectsTitle {
   position: relative;
   display: inline-block;
   font-size: 2em;
   font-weight: 800;
-  color: white;
   overflow: hidden;
   background: linear-gradient(
     to right,
@@ -4120,4 +4120,17 @@ body.is-preload #sidebar nav ul li {
 
 .aboutTitle:hover {
   background-position: 0 100%;
+}
+
+.projectsTitle:hover {
+  background-position: 0 100%;
+}
+
+.projectImage {
+  width: 420px;
+  height: 250px;
+}
+
+.gitBtn {
+  margin-right: 20px;
 }
