@@ -4131,6 +4131,11 @@ body.is-preload #sidebar nav ul li {
   height: 250px;
 }
 
+.projectImage:hover {
+  height: 300px;
+  width: 450px;
+}
+
 .gitBtn {
   margin-right: 20px;
 }
